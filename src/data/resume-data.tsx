@@ -22,21 +22,21 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Israfil Bhagwandass",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Waterloo, Canada, ON",
+  locationLink: "https://www.google.com/maps/place/Waterloo",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://isri135.github.io/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "isrib135@gmail.com",
+    tel: "+12265077643",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/isri135",
         icon: GitHubIcon,
       },
       {
@@ -53,29 +53,30 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Waterloo",
+      degree: "Bachelor's Degree in Statistics and minor in Combinatorics and Optimization",
+      start: "2022",
+      end: "2027",
     },
   ],
   work: [
     {
-      company: "Parabol",
+      company: "Sublime Software",
       link: "https://parabol.co",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "App Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2023",
+      end: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        " Secured the contract for Mehman Navazi Restaurant's delivery management software, by conducting in-depth consultations with the client to determine the project specifications, and preparing a detailed proposal outlining the budget and timeline. Developed a dual-interface mobile application (Admin and Driver) using React Native and MongoDB Realm. Streamlined Customer management by creating a centralized CRM in the Admin Interface to automate subscription cycles and payment processing for over 300 daily customers, expected to scale over time. Reduced time spent on Driver management by enabling Driver account creation and deletion, and assignment of daily deliveries to Drivers through Admin interface. Maximized profits by using Google's Geocoding API and Distance Matrix API to sort each Driver’s assigned deliveries in order of the most efficient route, minimizing the Driver’s number of hours worked and their personal gas expenses. Reduced delivery complaints by 30\% by using React Native Camera Kit and the cloud-hosted version of the WhatsApp Business Platform for Drivers to send Customers photo proof of delivery upon arrival."
+        // "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
       company: "Clevertech",
-      link: "https://clevertech.biz",
+      // link: "https://clevertech.biz",
       badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      title: "Lead Mobile Developer → Full Stack Developer",
       logo: ClevertechLogo,
       start: "2015",
       end: "2021",
@@ -105,13 +106,21 @@ export const RESUME_DATA = {
     },
   ],
   skills: [
+    "HTML",
+    "CSS",
     "JavaScript",
-    "TypeScript",
+    "Python",
+    "C",
+    "C++",
     "React/Next.js/Remix",
+    "React Native",
+    "Express",
+    "Flask",
+    "Pandas",
+    "MongoDB",
+    "SQL",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "PowerBI",
   ],
   projects: [
     {
